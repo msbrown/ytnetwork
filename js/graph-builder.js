@@ -244,7 +244,7 @@ function getHashParams() {
     params = [window.location.hash.replace('#', '')];
     if (!params[0]) {
         // If no parameters, we put both searches for trump and clinton
-        params = ['election'];
+        params = ['election','mh17'];
     }
 
     $('#' + params[0]).addClass('btn-info');
